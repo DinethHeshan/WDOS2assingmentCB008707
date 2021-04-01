@@ -1,0 +1,1047 @@
+/* 
+Main Navigation
+ Device - Desktops and Laptops 
+*/
+
+
+#mainNav {
+    position:sticky;  /*To keep the navigation remain same even when scrolled down */
+    top: 0; 
+}
+
+#mainNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    flex-flow: row wrap;
+    overflow: hidden;
+}
+
+#mainNav a {
+    background-repeat: no-repeat;
+    background-size: 30px auto;
+    min-height: 40px;
+    line-height: 40px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;     
+    padding: 4px;
+}
+
+#mainNav li {
+   flex-grow: 1; 
+   width: min-content;
+   border: rgb(17,17,17) solid 2px;
+   padding: 0.1px;  
+}
+
+#mainNav li a.active {
+    background-color: #359b38;      /*To show the active webpage */
+  }
+  
+#mainNav li a:hover:not(.active) {
+    background-color: rgb(71, 71, 71); 
+  }
+
+
+  
+
+  /* 
+ Main Navigation
+ Device - Smartphones (Portrait) 320px to 679px
+*/
+
+@media (min-width: 320px) and (max-width: 670px) {
+
+    #mainNav a {
+        background-size: auto;
+        min-height: 33px;
+        line-height: 35px; 
+        font-size: 9px;   
+    }
+    
+    #mainNav li {
+       width: min-content;
+       border: rgb(17,17,17) solid 0.01px;
+       padding: 0.6px;
+    }
+}
+
+
+
+
+
+/* 
+ Main Header
+ Device - Desktops and Laptops
+*/
+
+ 
+#mainHeader img {
+    float: left;
+    width: 100%;  
+    height: 100%;
+    max-width: 350px;
+    max-height: 350px;  
+}
+
+#mainHeader h1 {
+    font-size: 26px;
+    font-style: italic;
+    font-family: brush script -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: right; 
+}
+
+
+
+  /* 
+ Main Header
+ Device - Smartphones (Portrait) 320px to 679px
+*/
+@media (min-width: 320px) and (max-width: 670px) {
+
+#mainHeader img {
+    max-width: 130px;
+    max-height: 130px;
+}
+#mainHeader h1 {
+    font-size: 9px;
+}
+}
+
+
+
+
+
+/* 
+ Footer 
+ Device - Desktops and Laptops
+*/
+
+footer img{
+    float: right;
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    padding-top: 10px;
+  }  
+  
+  footer {
+      background: #5c5c5c;
+      padding: 1em;
+      
+  }
+  
+  footer p {
+      color: white;
+  }
+  
+  footer h3 {
+      color: white;
+      text-align: center;
+      
+  }
+  footer a{
+      color: white;
+      text-decoration: none;
+  }
+
+
+
+/*
+Footer
+ Device - Smartphones (Portrait) 320px to 679px
+  */
+@media (min-width: 320px) and (max-width: 670px) {
+  
+#footerlogo{
+max-width: 100px;
+max-height: 100px;
+padding-top: 5px;
+}
+
+footer p, h3, a {
+    font-size: 8px;
+}
+footer{
+    padding: 0.1em;
+}
+}
+
+
+
+
+ /* 
+Home Page
+ Device - Desktops and Laptops
+*/
+#homepageMainimg {
+    width: 100%;
+    height: 100%; 
+}
+
+#whoarewe h1 {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 27px;
+    padding-left: 20%;
+    
+}
+#whoarewe img {
+    float: left;
+    width: 100%;
+    height: 100%; 
+    max-width: 300px;
+    max-height: 300px;
+}
+#whoarewe p{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+} 
+#reasonwhy h1{
+    text-align: left;
+    font-size: 23px;
+    padding-left: 70px;
+    padding-top:16%;
+}
+
+#reasonwhy img {
+padding-top: 70px;   
+float: right;
+width: 100%;
+height: 100%; 
+max-width: 450px;
+max-height: 450px;
+}
+
+#reasonwhy p {
+padding-left: 10px;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#reasonwhy ul{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#reasonwhy ol{
+  font-size: 20px;
+  align-items: center;
+
+}
+#reasonwhy ol ::first-letter {
+    font-size: 22px;
+    color: red;
+}
+
+#visionmission h1{
+    text-align: center;
+    font-size: 22px;
+    
+}
+
+#visionmission p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+#visionmission img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    max-height: 400px;
+}
+
+/*
+Home Page
+ Device - Smartphones (Portrait) 320px to 679px
+  */
+ @media (min-width: 320px) and (max-width: 670px) {
+
+#whoarewe h1 {
+    font-size: 12px;
+    padding-left: 20%
+}
+
+#whoarewe img { 
+    max-width: 90px;
+    max-height: 90px;
+}
+
+#whoarewe p{
+    font-size: 9px;
+}
+
+#reasonwhy h1{
+    font-size: 12px;   
+}
+#reasonwhy img{
+  padding-top: 90px;   
+  max-width: 150px;
+  max-height: 150px;
+}
+#reasonwhy p {
+    font-size: 9px;
+}
+
+#reasonwhy ul{
+    font-size: 9px;
+}
+
+#reasonwhy ol{
+    font-size: 9px;
+}
+
+#reasonwhy ol ::first-letter {
+    font-size: 10px;
+}
+#visionmission h1{
+ font-size: 10px;
+ }
+
+ #visionmission p {
+font-size: 9px;
+}
+
+#visionmission img {
+    max-width: 150px;
+    max-height: 150px;
+ }
+}
+
+
+
+
+/* 
+ Products page table
+ Device - Desktops and Laptops
+*/
+
+body{
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+#tableintro p, h2  {
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#tableintro h2{
+    padding-top: 3%;
+}
+
+#ecoplates{
+    width: 100%;
+    height: 100%;
+    max-width: 330px;
+    max-height: 230px;
+    float: left;
+}
+
+#ecoplatepaara{
+    padding-left: 23%;
+    padding-top: 3%;
+}
+
+#lightshade{
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    float: right;
+    padding-top: 6%;
+}
+
+#ecoshadespaara{
+    padding-top: 8%;
+}
+
+#producttypes table, th, td { 
+        border: 2px solid black;
+        padding: 8px;
+        border-collapse: collapse;
+    
+}
+
+#tabletopic {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #81c983;
+    
+}
+
+#tablebody {
+    font-size: 17px;
+    text-align: center;
+}
+
+#tablebody ul {
+    text-align: left;
+    font-size: 19px;
+}
+
+#tableimage {
+     width: 100%;
+     height: 100%;
+     max-width: 300px;
+     max-height: 300px;
+ }
+
+#tablecontainer {
+    overflow-x: scroll;
+}
+
+#productstablefooter {
+     background-color: rgb(217, 238, 142);
+     color: black;
+     text-align: center;
+     font-weight: bold;
+ }
+
+
+
+ /* 
+ Products page 
+ Device - Smartphones (Portrait) 320px to 679px
+*/
+
+@media (min-width: 320px) and (max-width: 670px) {
+
+#tableintro p, h2  {
+    font-size: 8px;
+}
+    
+#tableintro h2{
+    padding-top: 0%;
+}
+    
+#ecoplates{
+    max-width: 100px;
+    max-height: 80px;
+    padding-top: 6%;
+}
+    
+#ecoplatepaara{
+    padding-left: 29%;
+    padding-top: 3%;
+}
+    
+#lightshade {
+    max-width: 110px;
+    max-height: 110px;
+    padding-top: 8%;
+}
+    
+#ecoshadespaara{
+    padding-top: 8%;
+}
+
+#producttypes table, th, td {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+#tabletopic {
+    font-size: 11px;
+}
+
+#tablebody {
+    font-size: 9px;
+}
+
+#tablebody ul {
+    text-align: left;
+    font-size: 9px;
+}
+
+#tableimage {
+    max-width: 160px;
+    max-height: 110px;
+}
+
+#productstablefooter {
+ font-size: 6px; 
+}
+}
+
+
+
+
+
+/*
+Manufacturers page
+ Device - Desktops and laptops
+*/
+
+#manufacturespagecontent {             /*All content are inside the same div tag */
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#manufacturespageintro h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#manufacturespagecontent h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#manufacturespagecontent img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#manufacturespagecontent ul {  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    
+}  
+
+#manufacturespagecontent a{
+    text-decoration: none;
+    color: black;
+}
+
+#twocssdesign a {
+    background-color:#16831a;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 15px;
+  
+}
+
+#manufacturespagecontent iframe {
+    width: 600px; 
+    height: 450px;
+    border: 0;
+}
+
+#twocssdesign h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+} 
+
+
+
+/* 
+ Manufacturers page 
+ Device - Smartphones (Portrait) 320px to 679px
+*/
+
+@media (min-width: 320px) and (max-width: 670px) {
+
+#manufacturespageintro h1{
+    font-size: 13px;
+}
+
+#manufacturespagecontent h1{
+    font-size: 10px;
+}
+
+#manufacturespagecontent img{
+ max-width:150px ;
+ max-height: 150px;
+}
+
+#manufacturespagecontent ul { 
+    font-size: 9px;
+}
+
+#twocssdesign h2{
+    font-size: 10px;
+}
+
+#manufacturespagecontent iframe{
+    width: 300px;
+    height: 290px;
+}
+}
+
+
+
+
+/* Buy Now page 
+ Device - Desktops and laptops
+*/
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    max-height: 450px;
+    position: static;
+    margin: auto;
+}
+
+#slideimage {
+    width: 100%;
+}
+  
+  
+ /* The image circles under the image */
+.circle {
+ height: 13px;
+ width: 13px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+  
+.active {
+ background-color: #383737;
+}
+  
+/* slight blur effect to the images */
+.blur {
+ -webkit-animation-name: blur;
+ -webkit-animation-duration: 1.7s;
+ animation-name: fade;
+ animation-duration: 1.7s;
+}
+  
+@-webkit-keyframes blur { /* for safari browser*/
+ from {opacity: .6} 
+ to {opacity: 0}
+}
+  
+@keyframes blur {
+ from {opacity: .6} 
+ to {opacity: 0}
+}
+
+
+/*side menue of buy now page*/
+
+#buynowpage-sidemenue {
+ height: 100%;
+ width: 0;
+ position: fixed;
+ top: 0;
+ left: 0;
+ background-color: rgb(35,35,35);
+ overflow-x: hidden;
+ transition: 0.8s;
+ padding-top: 80px;
+ }
+
+#buynowpage-sidemenue a {
+ padding: 8px 8px 8px 32px;
+ text-decoration: none;
+ font-size: 22px;
+ color: #888888;
+ display: block;
+ transition: 0.2s;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+#buynowpage-sidemenue a:hover {
+ color: white;
+}
+
+#buynowpage-sidemenue #closemenue-btn {
+ position: absolute;
+ top: 0;
+ right: 25px;
+ font-size: 38px;
+ margin-left: 50px;
+} 
+
+.sidemenue-openbutton{
+ font-size: 35px;
+ cursor: pointer;
+ padding-left: 5px;
+}
+
+.openbutton {
+ position: static;
+}
+  
+.openbutton .btnmsg {
+  visibility: hidden;
+  width:1px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 12px;
+  padding: 10px 10px;
+  font-size: 16px;
+  position: static;
+}
+  
+.openbutton:hover .btnmsg {
+  visibility: visible;
+}
+
+.openfavourites {
+ height: 0;
+ width: 0;
+ margin-left: 290px;
+ position: fixed;
+ top: 0;
+ left: 0;
+ background-color: rgb(41, 41, 41);
+ transition: 0.8s;
+ margin-top: 142px;
+ padding-left: 1em;
+}
+
+#favouritesmenue-topic {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  font-family: sans-serif;
+  visibility: hidden;
+}   
+
+#printfavourites {
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    visibility: hidden;
+}
+
+
+/*manufacturer, products and size selection of buy now page*/
+
+.manufacturers-container {
+ display: flex;
+ text-align: center;
+}
+
+#manufactures-box{
+ margin: 35px;
+ padding: 45px;
+ box-sizing: border-box;
+ border: black solid;
+}
+
+#buynowpage-topic{
+ text-align: center;
+ font-size: 30px;
+}
+
+#manufacturerspage-ecolanka-logo {
+ max-width: 220px;
+ max-height: 220px;
+ padding-top: 43px;
+}
+
+#manufacturerspage-trickeldown-logo {
+ max-width: 230px;  
+ max-height: 230px;
+ padding-top: 55px;
+}
+
+#manufacturerspage-ecoproducts-logo {
+ max-width: 200px;  
+ max-height: 200px;
+ padding-top: 33px;
+}
+
+#manufacturerspage-greenbag-logo {
+ max-width: 200px;  
+ max-height: 200px;
+ padding-top: 51px;
+}
+
+.choose-product {
+ display: flex;
+ text-align: center;   
+}
+
+.main-products {
+  margin: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: black solid;
+}
+
+#buynowpage-bagimg {
+ max-width: 270px;
+ max-height: 220px;
+}
+
+#buynowpage-platepimg {
+ max-width: 260px;
+ max-height: 260px;
+ padding-top: 45px;
+}
+
+#buynowpage-mugimg {
+ max-width: 300px;
+ max-height: 300px; 
+ padding-top: 64px; 
+}
+
+#buynowpage-soapimg {
+ max-width: 250px;
+ max-height: 250px; 
+ padding-top: 60px;
+}
+
+#size-lable {
+ font-size: larger;
+}
+
+
+input[type=radio] {
+ border: 0px;
+ width: 8%;
+ height: 1.5em;
+}
+
+#size-lable {
+ font-size: 22px;
+}
+
+.other-products {
+ margin: 40px;
+ padding: 20px;
+ box-sizing: border-box;
+ border: black solid;
+}
+
+#buynowpage-packagingimg {
+ max-width: 240px;
+ max-height: 240px;
+}
+
+#buynowpage-greetincardimg {
+ max-width: 243px;
+ max-height: 243px;
+}
+
+#buynowpage-decoimg {
+ max-width: 250px;
+ max-height: 250px;
+ padding-top: 58px;
+}
+
+#buynowpage-cottonbudimg{
+ max-width: 250px;
+ max-height: 250px;
+ padding-top: 40px;
+}
+
+input[type='radio'] {
+ width: 22px;
+ height: 20px;
+}
+
+#button-remark{
+ font-size: medium; 
+}
+
+#orderbuttons{
+ display: flex;
+ justify-content: center;
+ 
+}
+
+.btn-addtoorder, .btn-placeorder , #takefav-btn {
+ width: 20%;
+ height: 40%;
+ padding: 10px;
+ margin: 40px;
+ background-color:  #d1f5d2;
+ font-weight: bold;
+ cursor: pointer;
+ -webkit-transition-duration: 0.5s; /* for Safari browser */
+ transition-duration: 0.5s;
+ box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)
+}
+
+.btn-addtoorder:hover, .btn-placeorder:hover , #takefav-btn:hover{
+ background-color: #4CAF50;
+ color: white;
+}
+
+#currentbill-topic {
+ background-color: rgb(231, 226, 218);
+ padding: 0px; 
+ border-top: 0;
+}
+
+#currentordertopic {
+ font-size: 0px;
+ font-family: sans-serif;
+ font-weight: bold;
+ text-align: center;
+}
+
+#currentbill-buynowpage {
+ font-size: 20px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-color: rgb(231, 226, 218);
+ padding: 0px;
+ border-bottom: 0;
+
+}
+
+.fav-btn {
+ width: 0;
+ background-color: #378b39;
+ color: white;
+ padding: 0px 0px;
+ margin: 10px 10px;
+ border-radius: 4px;
+ cursor: pointer;
+ font-weight: bold;
+ box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)
+}
+
+
+/*Buynow page 
+Device - Smartphones (Portrait) 320px to 679px
+*/
+
+@media (min-width: 320px) and (max-width: 670px) {
+
+.circle {    
+    height: 9px;
+    width: 9px;
+}    
+   
+#buynowpage-sidemenue a {
+padding: 4px 4px 4px 28px;
+}
+}
+
+
+/* contact us page
+ Device - Desktops and laptops
+*/
+
+
+#contactus-topic1 {
+ text-align: center;
+ font-family: sans-serif;
+ font-weight: 800;
+ font-size: 30px;
+ color:#179c1d;
+}
+
+#contactus-topic2 {
+ text-align: center;
+ font-family: sans-serif;
+ font-size: 26px;
+}
+
+#contactuspage-logo {
+ display: flex;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: -90px;
+ width: 17%;   
+}
+
+#contactus-topic3 {
+ text-align: center;
+ font-size: 25px;
+}
+
+input[type=email], input[type=tel], input[type=text] {
+padding: 10px 10px;
+margin: 12px 13px;
+display: inline-block;
+border: 2px solid rgb(151, 150, 150);
+border-radius: 6px;
+box-sizing: border-box;
+}
+
+input[type=submit] {
+ width: 15%;
+ background-color: #378b39;
+ color: white;
+ padding: 10px 15px;
+ margin: 10px 10px;
+ border-radius: 4px;
+ cursor: pointer;
+ font-weight: bold;
+}
+  
+input[type=submit]:hover {
+ background-color: #45a049;
+}
+  
+#contact-uspage-form{
+ border-radius: 5px;
+ background-color: #e2dfdf;
+ padding: 25px;
+}
+#firstname-lable {
+  padding-left: 13px; 
+}
+
+#lastname-lable {
+ padding-left:11.5%;
+    
+}
+#last-name {
+ width: 24%; 
+}
+
+#telephone-lable {
+ padding-left: 11px;
+}
+
+#telephone, #Email {
+ width: 28%;
+}
+
+#email-lable {
+ padding-left: 16px;
+}
+
+#message-lable {
+ padding-left: 11px;
+}
+
+#message{
+ padding: 60px 200px;  
+}
+
+#telephone-btn {
+ width: 40px;
+ height: 40px;
+ padding-top: 13px;
+}
+
+#twitter-btn, #gmail-btn, #facebook-btn, #instagram-btn  {
+ width: 44px;
+ height: 44px;
+}
+
+.contactus-btn {
+ display: flex;;
+ justify-content: center;   
+}
+
+#contact {
+ margin: 10px;
+}
+

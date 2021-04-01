@@ -1,0 +1,42 @@
+{
+    "name": "Greenleaf - Eco-product Store",
+    "short_name": "Greenleaf",
+    "start_url":"index.html",
+    "icons": [
+        {
+            "src": "/images/android-chrome-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src":"images/favicon-16x16.png" ,
+            "sizes":"16x16",
+            "type" :"image/png"
+        }, 
+        {
+            "src":"images/favicon-32x32.png" ,
+            "sizes":"32x32",
+            "type" :"image/png" 
+        },
+        {
+            "src": "/images/mistile-150x150.png",
+            "sizes": "150x150",
+            "type": "image/png"  
+        },
+          
+        {
+            "src": "/images/favicon.png",
+            "sizes": "512x512",
+            "type": "image/png"  
+        },
+        {
+            "src": "/images/favicon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+ 
+    ],
+    "theme_color": "#120303",
+    "background_color": "#120303",
+    "display": "standalone"
+}
